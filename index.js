@@ -1,5 +1,4 @@
 //Desafio de Projeto Final: Escrevendo as Classes de um Jogo. 
-
 class herois{
     constructor(nomeHeroi, idadeHeroi, tipoHeroi, tipoArma){
         this.nome = nomeHeroi

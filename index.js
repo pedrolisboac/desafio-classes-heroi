@@ -1,13 +1,13 @@
 //Desafio de Projeto Final: Escrevendo as Classes de um Jogo. 
 class herois{
-    constructor(nomeHeroi, idadeHeroi, tipoHeroi, tipoArma){
+    constructor(nomeHeroi, idadeHeroi, tipoHeroi, tipoAtaque){
         this.nome = nomeHeroi
         this.idade = idadeHeroi
         this.tipo = tipoHeroi
-        this.arma = tipoArma
+        this.ataque = tipoAtaque
     }
         atacar(){
-            console.log(`O Campeão '${this.nome}' de ${this.idade} é o melhor ${this.tipo} de Summoner's Rift e fez seu ataque na arena usando ${this.arma} e derrotou todos os seus inimigos!`)
+            console.log(`O Campeão '${this.nome}' de ${this.idade} é o melhor ${this.tipo} de Summoner's Rift e fez seu ataque na arena usando ${this.ataque} e derrotou todos os seus inimigos!`)
         }
 }
 
